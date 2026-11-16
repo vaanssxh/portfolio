@@ -297,3 +297,31 @@ h2 em { color: var(--accent); }
   *, *::before, *::after { scroll-behavior: auto !important; animation-duration: .01ms !important; animation-iteration-count: 1 !important; transition-duration: .01ms !important; }
   .reveal { opacity: 1; transform: none; }
 }
+
+/* Certification verification links */
+.cert-link {
+  color: inherit;
+  text-decoration: none;
+  transition: color 0.25s ease;
+}
+
+.cert-link:hover {
+  color: #A6B397;
+}
+
+.cert-link:focus-visible,
+.cert-symbol:focus-visible {
+  outline: 2px solid #A6B397;
+  outline-offset: 4px;
+}
+
+.cert-symbol {
+  text-decoration: none;
+  cursor: pointer;
+  transition: color 0.25s ease, transform 0.25s ease;
+}
+
+.cert-symbol:hover {
+  color: #A6B397;
+  transform: translate(3px, -3px);
+}
