@@ -77,31 +77,6 @@ The contact form is mailto-based. Submitting valid fields opens the visitor's co
 
 If you later want server-side form handling, connect a form service (for example Netlify Forms or Formspree), update the form markup and submission logic, and configure spam protection and privacy information.
 
-## 7. Deploy
-
-### Netlify
-
-1. Sign in to [Netlify](https://www.netlify.com/).
-2. Choose **Add new site** → **Deploy manually** (or import the repository from GitHub).
-3. Drag the complete `portfolio` folder into the deploy area, or select the Git repository.
-4. Set the publish directory to the project root (`.`) if prompted. There is no build command.
-5. Deploy. Confirm the profile image and links work on the published URL.
-
-### Vercel
-
-1. Push the `portfolio` folder to a GitHub repository.
-2. In [Vercel](https://vercel.com/), choose **Add New** → **Project** and import that repository.
-3. Choose **Other** as the framework preset if asked.
-4. Leave the build command empty and set the output directory to `.` (project root).
-5. Deploy. The root `index.html` is served as a static site.
-
-### GitHub Pages
-
-1. Push the project files to a GitHub repository.
-2. Open repository **Settings** → **Pages**.
-3. Under Build and deployment, select **Deploy from a branch**.
-4. Choose your deployment branch and `/ (root)` folder, then save.
-5. Wait for the Pages URL to appear. Keep all asset paths relative so the site works from the repository path.
 
 ## Notes
 
